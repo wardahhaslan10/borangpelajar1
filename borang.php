@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 $err_nama = "";
 $err_ic = "";
 $err_telefon = "";
