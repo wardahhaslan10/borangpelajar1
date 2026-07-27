@@ -2,7 +2,6 @@
 session_start();
 
 $kosong = false;
-
 // Nama
 if (isset($_POST['nama']) && $_POST['nama'] != "") {
     $nama = $_POST['nama'];
