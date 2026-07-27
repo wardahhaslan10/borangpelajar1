@@ -8,44 +8,36 @@ $err_alamat = "";
 $err_jantina = "";
 $err_program = "";
 
-
 // Ambil error daripada session
 if (isset($_SESSION['nama'])) {
     $err_nama = $_SESSION['nama'];
     unset($_SESSION['nama']);
 }
-
 if (isset($_SESSION['ic'])) {
     $err_ic = $_SESSION['ic'];
     unset($_SESSION['ic']);
 }
-
 if (isset($_SESSION['telefon'])) {
     $err_telefon = $_SESSION['telefon'];
     unset($_SESSION['telefon']);
 }
-
 if (isset($_SESSION['email'])) {
     $err_email = $_SESSION['email'];
     unset($_SESSION['email']);
 }
-
 if (isset($_SESSION['alamat'])) {
     $err_alamat = $_SESSION['alamat'];
     unset($_SESSION['alamat']);
 }
-
 if (isset($_SESSION['jantina'])) {
     $err_jantina = $_SESSION['jantina'];
     unset($_SESSION['jantina']);
 }
-
 if (isset($_SESSION['program'])) {
     $err_program = $_SESSION['program'];
     unset($_SESSION['program']);
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
