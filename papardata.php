@@ -23,37 +23,37 @@
 
         <tr>
             <td>Nama Pelajar</td>
-            <td><?= $nama ?></td>
+            <td><?= $err_nama ?></td>
         </tr>
 
         <tr>
             <td>No Kad Pengenalan</td>
-            <td><?= $ic ?></td>
+            <td><?= $err_ic ?></td>
         </tr>
 
         <tr>
             <td>No Telefon</td>
-            <td><?= $telefon ?></td>
+            <td><?= $err_telefon ?></td>
         </tr>
 
         <tr>
             <td>Email</td>
-            <td><?= $email ?></td>
+            <td><?= $err_email ?></td>
         </tr>
 
         <tr>
             <td>Alamat</td>
-            <td><?= $alamat ?></td>
+            <td><?= $err_alamat ?></td>
         </tr>
 
         <tr>
             <td>Jantina</td>
-            <td><?= $jantina ?></td>
+            <td><?= $err_jantina ?></td>
         </tr>
 
         <tr>
             <td>Program</td>
-            <td><?= $program ?></td>
+            <td><?= $err_program ?></td>
         </tr>
     </table>
     <div class="text-center">
