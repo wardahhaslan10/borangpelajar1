@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+$nama = $_SESSION['nama'];
+$ic = $_SESSION['ic'];
+$telefon = $_SESSION['telefon'];
+$email = $_SESSION['email'];
+$alamat = $_SESSION['alamat'];
+$jantina = $_SESSION['jantina'];
+$program = $_SESSION['program'];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
