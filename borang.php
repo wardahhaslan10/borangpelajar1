@@ -53,7 +53,7 @@ if (isset($_SESSION['program'])) {
     <h2 class="text-center mb-4">
         Borang Maklumat Pelajar
     </h2>
-    <form action="maklumatpelajar.php" method="POST">
+    <form action="proses.php" method="POST">
         <div class="row border p-4">
 
             <!-- Nama -->
