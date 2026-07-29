@@ -56,6 +56,8 @@ if ($kosong) {
     header("Location: borang.php");
     exit();
 }
-include "papardata.php";
+include ("papardata.php");
+exit();
+
 ?>
 
