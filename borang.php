@@ -16,7 +16,6 @@ unset($_SESSION['err_email']);
 unset($_SESSION['err_alamat']);
 unset($_SESSION['err_jantina']);
 unset($_SESSION['err_program']);
-
 ?>
 <!DOCTYPE html>
 <html>
