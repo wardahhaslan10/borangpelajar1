@@ -17,96 +17,45 @@ $program = $_SESSION['program'];
 </head>
 <body>
 <div class="container mt-5">
-<h2 class="text-center mb-4">
-    Maklumat Pelajar
-</h2>
-
+<h2 class="text-center mb-4">Maklumat Pelajar</h2>
 <table class="table table-bordered w-75 mx-auto">
 <tr class="table-success">
-<th>
-    Maklumat
-</th>
+<th>Maklumat</th>
 
-<th>
-    Butiran
-</th>
+<th>Butiran</th>
+</tr><tr>
 
+<td>Nama Pelajar</td>
+
+<td><?= $nama ?></td></tr>
+
+<tr><td>No Kad Pengenalan</td>
+
+<td><?= $ic ?></td></tr>
+
+<tr><td>No Telefon</td>
+
+<td><?= $telefon ?></td>
 </tr>
 
-<tr>
-<td>
-    Nama Pelajar
-</td>
+<tr><td>Email</td>
 
-<td>
-    <?= $nama ?>
-</td>
-</tr>
+<td><?= $email ?></td></tr>
 
-<tr>
-<td>
-    No Kad Pengenalan
-</td>
+<tr><td>Alamat</td>
 
-<td>
-    <?= $ic ?>
-</td>
-</tr>
+<td><?= $alamat ?></td></tr>
 
-<tr>
-<td>
-    No Telefon
-</td>
+<tr><td>Jantina</td>
 
-<td>
-    <?= $telefon ?>
-</td>
-</tr>
+<td><?= $jantina ?></td></tr>
 
-<tr>
-<td>
-    Email
-</td>
+<tr><td>Program</td>
 
-<td>
-    <?= $email ?>
-</td>
-</tr>
-
-<tr>
-<td>
-    Alamat
-</td>
-
-<td>
-    <?= $alamat ?>
-</td>
-</tr>
-
-<tr>
-<td>
-    Jantina
-</td>
-
-<td>
-    <?= $jantina ?>
-</td>
-</tr>
-
-<tr>
-<td>
-    Program
-</td>
-
-<td>
-    <?= $program ?>
-</td>
-</tr>
+<td><?= $program ?></td></tr>
 </table>
 <div class="text-center">
-<a href="borang.php" class="btn btn-primary">
-    Kembali
-</a>
+<a href="borang.php" class="btn btn-primary">Kembali</a>
 </div>
 </div>
 </body>
