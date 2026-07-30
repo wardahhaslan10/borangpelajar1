@@ -2,8 +2,6 @@
 session_start();
 
 $kosong = false;
-
-
 // Nama
 if (!empty($_POST['nama'])) {
     $_SESSION['nama'] = $_POST['nama'];
@@ -11,7 +9,6 @@ if (!empty($_POST['nama'])) {
     $_SESSION['err_nama'] = "Nama belum diisi";
     $kosong = true;
 }
-
 
 // IC
 if (!empty($_POST['ic'])) {
@@ -21,7 +18,6 @@ if (!empty($_POST['ic'])) {
     $kosong = true;
 }
 
-
 // Telefon
 if (!empty($_POST['telefon'])) {
     $_SESSION['telefon'] = $_POST['telefon'];
@@ -29,7 +25,6 @@ if (!empty($_POST['telefon'])) {
     $_SESSION['err_telefon'] = "Telefon belum diisi";
     $kosong = true;
 }
-
 
 // Email
 if (!empty($_POST['email'])) {
@@ -39,7 +34,6 @@ if (!empty($_POST['email'])) {
     $kosong = true;
 }
 
-
 // Alamat
 if (!empty($_POST['alamat'])) {
     $_SESSION['alamat'] = $_POST['alamat'];
@@ -47,7 +41,6 @@ if (!empty($_POST['alamat'])) {
     $_SESSION['err_alamat'] = "Alamat belum diisi";
     $kosong = true;
 }
-
 
 // Jantina
 if (isset($_POST['jantina'])) {
@@ -57,7 +50,6 @@ if (isset($_POST['jantina'])) {
     $kosong = true;
 }
 
-
 // Program
 if (!empty($_POST['program'])) {
     $_SESSION['program'] = $_POST['program'];
@@ -66,18 +58,12 @@ if (!empty($_POST['program'])) {
     $kosong = true;
 }
 
-
 // Jika ada kesalahan
 if ($kosong == true) {
-
     header("Location: borang.php");
     exit();
-
 }
-
-
 // Jika semua lengkap
 header("Location: papardata.php");
 exit();
-
 ?>
