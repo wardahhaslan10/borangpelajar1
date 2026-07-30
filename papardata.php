@@ -8,7 +8,6 @@ $email = $_SESSION['email'];
 $alamat = $_SESSION['alamat'];
 $jantina = $_SESSION['jantina'];
 $program = $_SESSION['program'];
-
 ?>
 <!DOCTYPE html>
 <html>
