@@ -142,12 +142,9 @@ Diploma Perniagaan
 </option>
 
 </select>
-
-
 <p class="text-danger">
 <?= $err_program ?>
 </p>
-
 </div>
 </div>
 <div class="text-center mt-4">
