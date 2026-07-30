@@ -58,6 +58,5 @@ if ($kosong) {
 }
 include ("papardata.php");
 exit();
-
 ?>
 
