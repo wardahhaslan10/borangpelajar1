@@ -35,8 +35,7 @@ $program = $_SESSION['program'];
 
 <tr><td>No Telefon</td>
 
-<td><?= $telefon ?></td>
-</tr>
+<td><?= $telefon ?></td></tr>
 
 <tr><td>Email</td>
 
