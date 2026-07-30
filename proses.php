@@ -51,7 +51,6 @@ if (isset($_POST['program']) && $_POST['program'] != "") {
 } else {
     $_SESSION['err_program'] = "Program belum dipilih";
     $kosong = true;
-
 }
 // Jika ada kesalahan
 if ($kosong) {
@@ -61,5 +60,4 @@ if ($kosong) {
 // Jika semua lengkap
 header("Location: papardata.php");
 exit();
-
 ?>
