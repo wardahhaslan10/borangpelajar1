@@ -51,12 +51,10 @@ if (!empty($_POST['program'])) {
     $_SESSION['err_program'] = "Sila pilih program";
     $kosong = true;
 }
-// Jika ada kesalahan
 if ($kosong == true) {
     header("Location: borang.php");
     exit();
 }
-// Jika semua lengkap
 header("Location: papardata.php");
 exit();
 ?>
