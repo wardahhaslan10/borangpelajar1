@@ -23,68 +23,30 @@ $program = $_SESSION['program'];
         </h2>
         <table class="table table-bordered w-75 mx-auto">
             <tr class="table-success">
-                <th>
-                    Maklumat
-                </th>
-                <th>
-                    Butiran
-                </th>
-            </tr>
+                <th>Maklumat</th>
+                <th>Butiran</th>
+            </tr><tr>
+                <td>Nama Pelajar</td>
+                <td><?= $nama ?>
+                </td></tr>
+            <tr><td>No Kad Pengenalan</td>
+                <td><?= $ic ?></td>
+            </tr><tr>
+                <td>No Telefon</td>
+                <td><?= $telefon ?></td>
+            </tr><tr>
+                <td>Email</td>
+                <td><?= $email ?>
+                </td></tr>
             <tr>
-                <td>
-                    Nama Pelajar
-                </td>
-                <td>
-                    <?= $nama ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    No Kad Pengenalan
-                </td>
-                <td>
-                    <?= $ic ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    No Telefon
-                </td>
-                <td>
-                    <?= $telefon ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Email
-                </td>
-                <td>
-                    <?= $email ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Alamat
-                </td>
-                <td>
-                    <?= $alamat ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Jantina
-                </td>
-                <td>
-                    <?= $jantina ?>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Program
-                </td>
-                <td>
-                    <?= $program ?>
-                </td>
+                <td>Alamat</td>
+                <td><?= $alamat ?></td>
+            </tr><tr>
+                <td>Jantina</td>
+                <td><?= $jantina ?></td>
+            </tr><tr>
+                <td>Program</td>
+                <td><?= $program ?></td>
             </tr>
         </table>
         <div class="text-center">
